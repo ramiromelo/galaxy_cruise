@@ -19,3 +19,4 @@ with keyboard.GlobalHotKeys({
         'c': on_activate_c,
         '<ctrl>+c': quit}) as h:
     h.join()
+
