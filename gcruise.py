@@ -1,4 +1,10 @@
 from pynput import keyboard
+import pyautogui, sys
+
+#NEXT GALAXY (N)
+def on_activate_n():
+    print('NEXT GALAXY')
+    pyautogui.moveTo(1760, 810)
 
 def on_activate_a():
     print('A pressed')
